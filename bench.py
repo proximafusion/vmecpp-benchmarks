@@ -58,9 +58,9 @@ def main():
     print("Runtime: ", vmec2000_w7x_time)
 
     print("\nTIMES")
-    print("\tVMEC2000\tVMEC++")
+    print("\t\tVMEC2000\t\tVMEC++")
     print(f"precise_qa\t{vmec2000_precise_qa_time}\t{vmecpp_precise_qa_time}")
-    print(f"w7x\t{vmec2000_w7x_time}\t{vmecpp_w7x_time}")
+    print(f"w7x\t\t{vmec2000_w7x_time}\t{vmecpp_w7x_time}")
 
 
 if __name__ == "__main__":
