@@ -1,0 +1,23 @@
+[project]
+name = "vmecpp-benchmarks"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = "==3.10"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Enrico Guiraud", email = "eguiraud@proximafusion.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[project.urls]
+Documentation = "https://github.com/proximafusion/vmecpp-benchmarks#readme"
+Issues = "https://github.com/proximafusion/vmecpp-benchmarks/issues"
+Source = "https://github.com/proximafusion/vmecpp-benchmarks"
