@@ -10,4 +10,4 @@ pip install -r requirements.txt
 python bench.py
 ```
 
-On other systems, you need a Python environment with [VMEC2000](https://github.com/hiddenSymmetries/VMEC2000), [SIMSOPT](https://github.com/hiddenSymmetries/VMEC2000) and [VMEC++](https://github.com/proximafusion/vmecpp).
+On other systems, you need a Python environment with [VMEC2000](https://github.com/hiddenSymmetries/VMEC2000), [SIMSOPT](https://github.com/hiddenSymmetries/simsopt) and [VMEC++](https://github.com/proximafusion/vmecpp).
