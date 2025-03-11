@@ -1,5 +1,5 @@
 """
-Run this under mpiexec!  
+Run this under mpirun!
 """
 
 from pathlib import Path
