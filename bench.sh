@@ -1,4 +1,6 @@
 #!/bin/bash
+# For example, run as:
+#   bash bench.sh 2>&1 | tee logs.txt
 
 # 1 core
 for input_file in "data/input.precise_qa_beta1_mn12_ns99" "data/input.w7x_beta1_mn5_ns51"; do 
