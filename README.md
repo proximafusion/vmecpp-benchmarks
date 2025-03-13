@@ -8,6 +8,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 bash bench.sh 2>&1 | tee logs.txt
+python comparison_plot.py
 ```
 
 On other systems, you need a Python environment with [VMEC2000](https://github.com/hiddenSymmetries/VMEC2000), [SIMSOPT](https://github.com/hiddenSymmetries/simsopt) and [VMEC++](https://github.com/proximafusion/vmecpp).
