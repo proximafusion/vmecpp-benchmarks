@@ -1,0 +1,66 @@
+Begin importing simsopt.mhd (often slow because of MPI)...
+End importing simsopt.mhd. Took 0.9493916034698486 s
+Traceback (most recent call last):
+  File "/home/jurasic/vmecpp-benchmarks/run_vmec2000.py", line 23, in <module>
+    vmec = simsopt.mhd.Vmec(str(args.vmec_indata_file))
+  File "/home/jurasic/miniforge3/envs/py10/lib/python3.10/site-packages/simsopt/mhd/vmec.py", line 310, in __init__
+    raise RuntimeError(
+RuntimeError: Running VMEC from simsopt requires VMEC python extension. Install the VMEC python extension from https://github.com/hiddenSymmetries/VMEC2000
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[13465,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+Command exited with non-zero status 1
+1.00user 1.31system 0:04.75elapsed 48%CPU (0avgtext+0avgdata 226840maxresident)k
+64inputs+184outputs (3major+37344minor)pagefaults 0swaps
+Begin importing simsopt.mhd (often slow because of MPI)...
+End importing simsopt.mhd. Took 0.9337739944458008 s
+Traceback (most recent call last):
+  File "/home/jurasic/vmecpp-benchmarks/run_vmec2000.py", line 23, in <module>
+    vmec = simsopt.mhd.Vmec(str(args.vmec_indata_file))
+  File "/home/jurasic/miniforge3/envs/py10/lib/python3.10/site-packages/simsopt/mhd/vmec.py", line 310, in __init__
+    raise RuntimeError(
+RuntimeError: Running VMEC from simsopt requires VMEC python extension. Install the VMEC python extension from https://github.com/hiddenSymmetries/VMEC2000
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[13532,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+Command exited with non-zero status 1
+0.93user 0.13system 0:03.20elapsed 33%CPU (0avgtext+0avgdata 226892maxresident)k
+0inputs+200outputs (3major+37379minor)pagefaults 0swaps
+Begin importing simsopt.mhd (often slow because of MPI)...
+End importing simsopt.mhd. Took 0.9564425945281982 s
+Traceback (most recent call last):
+  File "/home/jurasic/vmecpp-benchmarks/run_vmec2000.py", line 23, in <module>
+    vmec = simsopt.mhd.Vmec(str(args.vmec_indata_file))
+  File "/home/jurasic/miniforge3/envs/py10/lib/python3.10/site-packages/simsopt/mhd/vmec.py", line 310, in __init__
+    raise RuntimeError(
+RuntimeError: Running VMEC from simsopt requires VMEC python extension. Install the VMEC python extension from https://github.com/hiddenSymmetries/VMEC2000
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[13356,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+Command exited with non-zero status 1
+1.00user 0.14system 0:03.27elapsed 34%CPU (0avgtext+0avgdata 226680maxresident)k
+0inputs+184outputs (3major+37334minor)pagefaults 0swaps
