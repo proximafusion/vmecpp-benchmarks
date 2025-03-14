@@ -1,5 +1,7 @@
 # VMEC++ benchmarks
 
+![Benchmark result on Intel Core Ultra 7 155H](benchmark.png)
+
 On Ubuntu 22.04, this should work out of the box:
 
 ```shell
@@ -12,3 +14,4 @@ python comparison_plot.py
 ```
 
 On other systems, you need a Python environment with [VMEC2000](https://github.com/hiddenSymmetries/VMEC2000), [SIMSOPT](https://github.com/hiddenSymmetries/simsopt) and [VMEC++](https://github.com/proximafusion/vmecpp).
+
