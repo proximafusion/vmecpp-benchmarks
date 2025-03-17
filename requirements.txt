@@ -1,6 +1,6 @@
 # this VMEC2000 wheel likely only works on Ubuntu 22.04!!
 vmec@https://anaconda.org/eguiraud-pf/vmec/0.0.6/download/vmec-0.0.6-cp310-cp310-linux_x86_64.whl
 simsopt
-vmecpp@ git+ssh://git@github.com/proximafusion/vmecpp.git
+vmecpp
 matplotlib
 pandas
