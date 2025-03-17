@@ -4,8 +4,14 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import argparse
+from pathlib import Path
 
-df = pd.read_csv("logs.txt", names=["VMEC_KIND", "INPUT", "CORES", "RUNTIME"]).sort_values(by="CORES")
+p = argparse.ArgumentParser()
+p.add_argument("runtimes_file", type=Path)
+runtimes_file = p.parse_args().runtimes_file
+
+df = pd.read_csv(runtimes_file, names=["VMEC_KIND", "INPUT", "CORES", "RUNTIME"]).sort_values(by="CORES")
 df["INPUT"] = df["INPUT"].apply(lambda txt: txt.removeprefix("data/input."))
 
 # Compute mean and standard deviation for error bars
