@@ -2,6 +2,8 @@
 
 ![Benchmark result on Intel Core Ultra 7 155H](benchmark.png)
 
+Results on a laptop with Intel Core Ultra 7 155H CPUs. 
+
 ## Running the benchmarks
 
 ### Set up the Python virtual environment
@@ -33,3 +35,7 @@ egrep 'VMEC(PP|2000)' < logs.txt > runtimes.txt
 # Plot results: this produces 'benchmark.png'
 python comparison_plot.py runtimes.txt
 ```
+
+## Feedback
+
+To provide feedback on this repository, please reach out at https://github.com/proximafusion/vmecpp, opening an issue or a GitHub discussion.
